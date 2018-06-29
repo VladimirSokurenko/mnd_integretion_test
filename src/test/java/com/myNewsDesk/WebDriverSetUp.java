@@ -44,4 +44,11 @@ public class WebDriverSetUp {
 
     }
 
+    public void goProfile(){
+        driver.findElement(By.xpath("//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/span")).click();
+        driver.findElement(By.xpath("//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[2]")).click();
+
+
+    }
+
 }
