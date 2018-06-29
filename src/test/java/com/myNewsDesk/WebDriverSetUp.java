@@ -33,8 +33,8 @@ public class WebDriverSetUp {
         driver.get("https://www.mnd-staging-sloboda.com/user/signin");
     }
 
-    public void getStaging(){
-        driver.get("https://www.mnd-staging-sloboda.com/user/signin");
+    public void getProduction(){
+        driver.get("https://www.mynewsdesk.com/user/signin");
     }
 
     public void logIn(String username, String password){
