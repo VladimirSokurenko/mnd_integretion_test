@@ -29,26 +29,31 @@ public class WebDriverSetUp {
 
     //journalist variables and methods
 
-    public void getStaging(){
-        driver.get("https://www.mnd-staging-sloboda.com/user/signin");
-    }
+    //variables
 
-    public void getProduction(){
-        driver.get("https://www.mynewsdesk.com/user/signin");
+    String stagingUrl = "https://www.mnd-staging-sloboda.com/user/signin";
+    String productionUrl = "https://www.mynewsdesk.com/user/signin";
+    String usernameField = "//*[@id=\"username\"]";
+    String passwordField = "//*[@id=\"password\"]";
+    String loginButton = "//*[@id=\"login-button\"]";
+    String contentMarketTab = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/span";
+    String profileSelector = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[2]";
+
+    public void goToSite(String url){
+        driver.get(url);
     }
 
     public void logIn(String username, String password){
-        driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys(username);
-        driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys(password);
-        driver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
+        driver.findElement(By.xpath(usernameField)).sendKeys(username);
+        driver.findElement(By.xpath(passwordField)).sendKeys(password);
+        driver.findElement(By.xpath(loginButton)).click();
 
     }
 
     public void goProfile(){
-        driver.findElement(By.xpath("//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/span")).click();
-        driver.findElement(By.xpath("//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[2]")).click();
-
-
+        driver.findElement(By.xpath(contentMarketTab)).click();
+        driver.findElement(By.xpath(profileSelector)).click();
+        //create wait condition and compere values
     }
 
 }

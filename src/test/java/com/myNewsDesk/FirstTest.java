@@ -11,11 +11,11 @@ public class FirstTest extends WebDriverSetUp{
 
     @Test
     public void firstTest(){
-        getStaging();
+        goToSite(stagingUrl);
         logIn("test3", "123123qwe");
         goProfile();
     }
-    
+
 
 
 
