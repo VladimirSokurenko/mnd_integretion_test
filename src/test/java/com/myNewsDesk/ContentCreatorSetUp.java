@@ -1,6 +1,7 @@
 package com.myNewsDesk;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import java.util.concurrent.TimeUnit;
 import org.junit.Test;
@@ -9,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class WebDriverSetUp {
+public class ContentCreatorSetUp {
 
     public ChromeDriver driver;
 
@@ -38,6 +39,15 @@ public class WebDriverSetUp {
     String loginButton = "//*[@id=\"login-button\"]";
     String contentMarketTab = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/span";
     String profileSelector = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[2]";
+    String aboutSelector = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[3]/span";
+    String assignmentsSelecor ="//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[1]/span";
+    String profileHeading = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[1]/h1";
+    String profileAboutTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[1]";
+    String prfileServiceTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[2]";
+    String profileExpertiseTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[3]";
+    String profileLanguageTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[4]";
+
+
 
     public void goToSite(String url){
         driver.get(url);
@@ -50,10 +60,17 @@ public class WebDriverSetUp {
 
     }
 
-    public void goProfile(){
+    public void goContentMarketSection(String section){
         driver.findElement(By.xpath(contentMarketTab)).click();
-        driver.findElement(By.xpath(profileSelector)).click();
+        driver.findElement(By.xpath(section)).click();
         //create wait condition and compere values
     }
+
+    public void compareText(String webElement, String text){
+        String titleText = driver.findElementByXPath(webElement).getText();
+        Assert.assertTrue(titleText.equals(text));
+    }
+
+
 
 }
