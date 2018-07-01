@@ -46,6 +46,16 @@ public class ContentCreatorSetUp {
     String prfileServiceTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[2]";
     String profileExpertiseTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[3]";
     String profileLanguageTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[4]";
+    String profileProtfolio = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div[1]/h2";
+    String viewAsVisitorBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[1]/div/button[1]";
+    String profileBackBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div/div/button";
+    String viewAsVisitorHeading = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[1]/h1";
+    String editProfileBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[1]/div/button[2]";
+    String nameField = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[3]/div[1]/div/div/div[2]/div/input";
+    String titleField = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[3]/div[2]/div/div/div[2]/div/input";
+    String aboutFiled = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[5]/div/div/div[2]/div/textarea";
+    String saveProfileBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/footer/div/button";
+
 
 
 
