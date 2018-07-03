@@ -1,8 +1,15 @@
 package com.myNewsDesk;
-
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
+import org.openqa.selenium.WebElement;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Iterator;
+import java.util.Set;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -23,10 +30,6 @@ public class ContentCreatorSetUp {
 
     }
 
-    @After
-    public void close(){
-        driver.quit();
-    }
 
     //journalist variables and methods
 
@@ -55,6 +58,22 @@ public class ContentCreatorSetUp {
     String titleField = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[3]/div[2]/div/div/div[2]/div/input";
     String aboutFiled = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[5]/div/div/div[2]/div/textarea";
     String saveProfileBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/footer/div/button";
+    String removeAvatarBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[1]/div/div/div[2]/div/div/div";
+    String removeCoverBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[2]/div/div/div[2]/div/div/div";
+    String profileServiceSelector = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[6]/div/div/div[2]/div/div";
+    String profileExpertiseSelector = "";
+    String profileLanguageSelector = "";
+    String profileName = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[1]/div/h2";
+    String profileTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[1]/div/p[1]";
+    String profileAbout = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/p[1]";
+    String addProjectBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div[2]/a";
+    String portfolioItemTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[1]/div/div[1]/div/div[2]/div/input";
+    String portfolioItemDescription = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[1]/div/div[2]/div/div[2]/div/textarea";
+    String portfolioItemLink = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[1]/div/div[3]/div/div[2]/div/input";
+    String createPortfolioItemBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[2]/div/div/div/div/button[2]";
+
+
+
 
 
 
@@ -80,6 +99,14 @@ public class ContentCreatorSetUp {
         String titleText = driver.findElementByXPath(webElement).getText();
         Assert.assertTrue(titleText.equals(text));
     }
+
+    public String getRandomText(String text){
+        int random = (int) Math.floor(Math.random() * 101);
+        String result = text + random;
+        return result;
+    }
+
+
 
 
 
