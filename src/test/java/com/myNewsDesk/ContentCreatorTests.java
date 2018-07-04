@@ -5,17 +5,14 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Iterator;
 import java.util.Set;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.JavascriptException;
-import org.openqa.selenium.JavascriptExecutor;
+
+import org.openqa.selenium.*;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -198,6 +195,8 @@ public class ContentCreatorTests extends ContentCreatorSetUp {
         driver.quit();
 
     }
+
+
 
 
 

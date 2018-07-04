@@ -89,6 +89,8 @@ public class ContentCreatorSetUp {
     String profileSubNavigation = "//*[@id=\"subnav-journalist\"]/div/ul/li[2]/a";
     String aboutSubNavigation = "//*[@id=\"subnav-journalist\"]/div/ul/li[3]/a";
     String assignmentsSubNavigation = "//*[@id=\"subnav-journalist\"]/div/ul/li[1]/a";
+    String viewAssignmentBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div/ul/li[2]/button";
+    String applyForAssignmentBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div/div/button";
 
 
 
