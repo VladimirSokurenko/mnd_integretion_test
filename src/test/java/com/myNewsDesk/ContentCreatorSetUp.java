@@ -2,6 +2,7 @@ package com.myNewsDesk;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import java.util.HashMap;
 import java.util.Map;
@@ -43,13 +44,13 @@ public class ContentCreatorSetUp {
     String contentMarketTab = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/span";
     String profileSelector = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[2]";
     String aboutSelector = "//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[3]/span";
-    String assignmentsSelecor ="//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[1]/span";
-    String profileHeading = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[1]/h1";
+    String assignmentsSelector ="//*[@id=\"react-container\"]/div/div[1]/div/div/div[2]/ol/li[6]/div/div/div/a[1]";
+    String profileSectionHeading = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[1]/h1";
     String profileAboutTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[1]";
-    String prfileServiceTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[2]";
+    String profileServiceTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[2]";
     String profileExpertiseTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[3]";
     String profileLanguageTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[2]/div/div[2]/div[2]/h3[4]";
-    String profileProtfolio = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div[1]/h2";
+    String profilePortfolio = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div[1]/h2";
     String viewAsVisitorBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div[1]/div/button[1]";
     String profileBackBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[2]/div/div/button";
     String viewAsVisitorHeading = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/div/div[1]/h1";
@@ -71,6 +72,23 @@ public class ContentCreatorSetUp {
     String portfolioItemDescription = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[1]/div/div[2]/div/div[2]/div/textarea";
     String portfolioItemLink = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[1]/div/div[3]/div/div[2]/div/input";
     String createPortfolioItemBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[2]/div/div/div/div/button[2]";
+    String portfolioIemCard ="//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div[3]/div/div/div[1]/a";
+    String portfolioItemCardTitle = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div[3]/div/div/div[1]/a/h3";
+    String portfolioItemCardDescription = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div[3]/div/div/div[1]/a/span/p";
+    String viewPITitle = "//*[@id=\"react-container\"]/div/div[2]/div[2]/div/div/div/div[1]/div/div/h1";
+    String viewPIDescription = "//*[@id=\"react-container\"]/div/div[2]/div[2]/div/div/div/p";
+    String viewPILink = "//*[@id=\"react-container\"]/div/div[2]/div[2]/div/div/div/a";
+    String editPIBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div[3]/div[1]/div/div[2]/div/button";
+    String savePortfolioItemBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[2]/div/div/div[2]/div/button[2]";
+    String deletePIBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/form/div[2]/div/div/div[1]/button";
+    String deletePIPopUpYesBtn = "//*[@id=\"app-overlay\"]/div/div/article/div[3]/button[2]";
+    String aboutSectionHeading = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/div/h1";
+    String assignmentsSectionHeading = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[1]/div/div/h1";
+    String selectServiceFilter = "//*[@id=\"mnd-c-tags-select-serviceIds\"]";
+    String selectLanguageFilter = "//*[@id=\"mnd-c-tags-select-languageIds\"]";
+    String profileSubNavigation = "//*[@id=\"subnav-journalist\"]/div/ul/li[2]/a";
+    String aboutSubNavigation = "//*[@id=\"subnav-journalist\"]/div/ul/li[3]/a";
+    String assignmentsSubNavigation = "//*[@id=\"subnav-journalist\"]/div/ul/li[1]/a";
 
 
 
@@ -104,6 +122,22 @@ public class ContentCreatorSetUp {
         int random = (int) Math.floor(Math.random() * 101);
         String result = text + random;
         return result;
+    }
+
+    public void scrollToElement(String webElement) throws InterruptedException {
+        WebElement element = driver.findElementByXPath(webElement);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+        Thread.sleep(500);
+    }
+
+    public void createPortfolioItem(String title, String description, String url) throws InterruptedException{
+        scrollToElement(addProjectBtn);
+        driver.findElementByXPath(addProjectBtn).click();
+        driver.findElementByXPath(portfolioItemTitle).sendKeys(title);
+        driver.findElementByXPath(portfolioItemDescription).sendKeys(description);
+        driver.findElementByXPath(portfolioItemLink).sendKeys(url);
+        scrollToElement(createPortfolioItemBtn);
+        driver.findElementByXPath(createPortfolioItemBtn).click();
     }
 
 
