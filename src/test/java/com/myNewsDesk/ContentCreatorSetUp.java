@@ -98,6 +98,7 @@ public class ContentCreatorSetUp {
 
 
 
+
     public void goToSite(String url){
         driver.get(url);
     }

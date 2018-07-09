@@ -196,6 +196,21 @@ public class ContentCreatorTests extends ContentCreatorSetUp {
 
     }
 
+    @Test
+    public void getPublicCCProfile() throws InterruptedException {
+        driver.get("https://www.mnd-staging-sloboda.com/market/profile/6");
+        driver.quit();
+    }
+
+    @Test
+    public void getUnsubscribePage() throws InterruptedException {
+        String userHash = "9174918d45c00bfc37121f5471c2d6ac997d43a8335f46f5078459605c22db48";
+        driver.get("http://mnd-staging-sloboda.com/market/unsubscribe/" + userHash);
+        driver.quit();
+    }
+
+
+
 
 
 
