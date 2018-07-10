@@ -199,15 +199,35 @@ public class ContentCreatorTests extends ContentCreatorSetUp {
     @Test
     public void getPublicCCProfile() throws InterruptedException {
         driver.get("https://www.mnd-staging-sloboda.com/market/profile/6");
+        compareText(publicProfileHeading, "Portfolio");
+        compareText(publicAboutTitle, "About me");
+        compareText(publicLanguageTitle, "Language");
+        compareText(publicPortfolioHeading, "Portfolio");
+        WebElement element = driver.findElementByXPath(publicPortfolioItemCard);
+        if(element.isDisplayed() == true){
+            element.click();
+        }else {
+            System.out.println("Element is not visible");
+        }
         driver.quit();
     }
 
     @Test
     public void getUnsubscribePage() throws InterruptedException {
-        String userHash = "9174918d45c00bfc37121f5471c2d6ac997d43a8335f46f5078459605c22db48";
-        driver.get("http://mnd-staging-sloboda.com/market/unsubscribe/" + userHash);
+        String userHash = "4cd34ce8cb8171f9ea1ac8022af0786e7bd6d5a97a4f1820e8c2765092731588";
+        driver.get("http://www.mnd-staging-sloboda.com/market/unsubscribe/" + userHash);
+        WebElement element = driver.findElementByXPath(unsubscribeCard);
+        element.isDisplayed();
+        compareText(unsubscribeCardHeading, "Unsubscribe from assignments");
+        WebElement element1 = driver.findElementByXPath(unsubscribeCardStoriesBtn);
+        element1.isDisplayed();
+        element1.click();
+        WebElement element2 = driver.findElementByXPath("//*[@id=\"main\"]/section/div/header/h1");
+        element2.isDisplayed();
+        compareText("//*[@id=\"main\"]/section/div/header/h1","News on your terms");
         driver.quit();
     }
+
 
 
 

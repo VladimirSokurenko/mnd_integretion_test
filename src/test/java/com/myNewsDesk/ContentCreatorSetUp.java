@@ -91,6 +91,16 @@ public class ContentCreatorSetUp {
     String assignmentsSubNavigation = "//*[@id=\"subnav-journalist\"]/div/ul/li[1]/a";
     String viewAssignmentBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div/ul/li[2]/button";
     String applyForAssignmentBtn = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div[3]/div/div/button";
+    String publicProfileHeading = "//*[@id=\"react-container\"]/div/div[2]/div/div[1]/div/div/div/h1";
+    String publicAboutTitle = "//*[@id=\"react-container\"]/div/div[2]/div/div[2]/div/div[2]/h3[1]";
+    String publicLanguageTitle = "//*[@id=\"react-container\"]/div/div[2]/div/div[2]/div/div[2]/h3[4]";
+    String publicPortfolioHeading = "//*[@id=\"react-container\"]/div/div[2]/div/div[3]/h2";
+    String publicPortfolioItemCard = "//*[@id=\"react-container\"]/div/div[2]/div/div[4]/div[1]/a/div/div";
+    String unsubscribeCard = "//*[@id=\"react-container\"]/div/div[2]/div/div/div";
+    String unsubscribeCardHeading = "//*[@id=\"react-container\"]/div/div[2]/div/div/div/div/h1";
+    String unsubscribeCardStoriesBtn = "//*[@id=\"react-container\"]/div/div[2]/div/div/div/div/button";
+
+
 
 
 
@@ -142,6 +152,8 @@ public class ContentCreatorSetUp {
         scrollToElement(createPortfolioItemBtn);
         driver.findElementByXPath(createPortfolioItemBtn).click();
     }
+
+
 
 
 
