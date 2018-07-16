@@ -15,6 +15,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 
 public class ContentCreatorTests extends ContentCreatorSetUp {
 
@@ -227,6 +229,26 @@ public class ContentCreatorTests extends ContentCreatorSetUp {
         compareText("//*[@id=\"main\"]/section/div/header/h1","News on your terms");
         driver.quit();
     }
+
+    @Test
+    public void uploadProfileAvatar() throws InterruptedException {
+        goToSite(stagingUrl);
+        logIn("test3", "123123qwe");
+        goContentMarketSection(profileSelector);
+        driver.findElementByXPath(editProfileBtn).click();
+        uploadAvatarImage("/home/alexander/IdeaProjects/my_first_test/images/avatar.jpg");
+        uploadCoverImage("/home/alexander/IdeaProjects/my_first_test/images/coverImage.jpg");
+        scrollToElement(saveProfileBtn);
+        Thread.sleep(8000);
+        driver.findElementByXPath(saveProfileBtn).click();
+        driver.findElementByXPath(editProfileBtn).click();
+        driver.findElementByXPath(removeAvatarBtn).click();
+
+
+    }
+
+
+
 
 
 

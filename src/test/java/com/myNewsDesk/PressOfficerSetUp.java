@@ -5,10 +5,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Iterator;
-import java.util.Set;
+
+import java.util.*;
+
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import java.util.HashMap;
@@ -23,6 +22,10 @@ public class PressOfficerSetUp {
 
     public ChromeDriver driver;
 
+//    List<WebElement> webElements = new ArrayList<WebElement>(){{
+//        add( = driver.findElementByXPath(""));
+//    }};
+
     @Before
     public void setUp(){
         System.setProperty("chromedriver", "/home/alexander/IdeaProjects/my_first_test");
@@ -31,4 +34,7 @@ public class PressOfficerSetUp {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
+
+
+
 }

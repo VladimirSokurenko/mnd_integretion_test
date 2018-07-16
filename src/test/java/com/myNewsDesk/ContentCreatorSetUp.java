@@ -99,6 +99,8 @@ public class ContentCreatorSetUp {
     String unsubscribeCard = "//*[@id=\"react-container\"]/div/div[2]/div/div/div";
     String unsubscribeCardHeading = "//*[@id=\"react-container\"]/div/div[2]/div/div/div/div/h1";
     String unsubscribeCardStoriesBtn = "//*[@id=\"react-container\"]/div/div[2]/div/div/div/div/button";
+    String avatarFiled = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[1]/div/div/div[2]/div/input";
+    String coverImageField = "//*[@id=\"react-container\"]/div/div[2]/div[1]/div/form/div/div/div[2]/div/div/div[2]/div/input";
 
 
 
@@ -151,6 +153,18 @@ public class ContentCreatorSetUp {
         driver.findElementByXPath(portfolioItemLink).sendKeys(url);
         scrollToElement(createPortfolioItemBtn);
         driver.findElementByXPath(createPortfolioItemBtn).click();
+    }
+
+    public void uploadAvatarImage(String path){
+
+        driver.findElementByXPath(avatarFiled).sendKeys(path);
+
+    }
+
+    public void uploadCoverImage(String path){
+
+        driver.findElementByXPath(coverImageField).sendKeys(path);
+
     }
 
 

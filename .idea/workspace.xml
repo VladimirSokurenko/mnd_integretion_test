@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="904e7a8f-97e7-42b9-9e97-915c9e61d708" name="Default" comment="" />
+    <list default="true" id="904e7a8f-97e7-42b9-9e97-915c9e61d708" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myNewsDesk/ContentCreatorSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/myNewsDesk/ContentCreatorSetUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/myNewsDesk/ContentCreatorTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/myNewsDesk/ContentCreatorTests.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,25 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContentCreatorTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorTests.java">
+      <file leaf-file-name="JobAssignmnetsPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/JobAssignmnetsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="215" column="18" lean-forward="true" selection-start-line="215" selection-start-column="18" selection-end-line="215" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getCMProfile#0;class#ContentCreatorTests#0" />
-                <element signature="method#getCMAbout#0;class#ContentCreatorTests#0" />
-                <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
-                <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
-                <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-                <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
-                <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
-                <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
-                <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-                <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
-                <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -39,8 +33,44 @@
       <file leaf-file-name="ContentCreatorSetUp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorSetUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-344">
-              <caret line="100" column="104" selection-start-line="100" selection-start-column="104" selection-end-line="100" selection-end-column="104" />
+            <state relative-caret-position="120">
+              <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="8" selection-end-line="144" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PressOfficerTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainNavigationMenuPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/MainNavigationMenuPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewJobAssignmentPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/NewJobAssignmentPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1620">
+              <caret line="126" column="24" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,12 +99,19 @@
         <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/WebDriverSetUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/WebDriverSetUpContentCreator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerSetUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorSetUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressroomPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/MainNavigationMenuPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/JobAssignmnetsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/NewJobAssignmentPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerTests.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="54" />
     <option name="y" value="-11" />
     <option name="width" value="1313" />
@@ -86,12 +123,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="my_first_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_first_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_first_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_first_test" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_first_test" type="b2602c69:ProjectViewProjectNode" />
@@ -123,9 +168,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in my_first_test">
+  <component name="RunManager" selected="JUnit.PressOfficerTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -167,7 +209,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ContentCreatorTests.checkSubscribeButtonState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContentCreatorTests.uploadProfileAvatar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_first_test" />
       <extension name="coverage">
         <pattern>
@@ -179,7 +221,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.myNewsDesk" />
       <option name="MAIN_CLASS_NAME" value="com.myNewsDesk.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="checkSubscribeButtonState" />
+      <option name="METHOD_NAME" value="uploadProfileAvatar" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -190,7 +232,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ContentCreatorTests.getPublicCCProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PressOfficerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_first_test" />
       <extension name="coverage">
         <pattern>
@@ -201,8 +243,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.myNewsDesk" />
-      <option name="MAIN_CLASS_NAME" value="com.myNewsDesk.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="getPublicCCProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.myNewsDesk.PressOfficerTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PressOfficerTests.createJobAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my_first_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myNewsDesk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.myNewsDesk" />
+      <option name="MAIN_CLASS_NAME" value="com.myNewsDesk.PressOfficerTests" />
+      <option name="METHOD_NAME" value="createJobAssignment" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -213,7 +278,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ContentCreatorTests.getUnsubscribePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PressOfficerTests.loginAsPressOfficer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_first_test" />
       <extension name="coverage">
         <pattern>
@@ -224,8 +289,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.myNewsDesk" />
-      <option name="MAIN_CLASS_NAME" value="com.myNewsDesk.ContentCreatorTests" />
-      <option name="METHOD_NAME" value="getUnsubscribePage" />
+      <option name="MAIN_CLASS_NAME" value="com.myNewsDesk.PressOfficerTests" />
+      <option name="METHOD_NAME" value="loginAsPressOfficer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -243,29 +308,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="com.myNewsDesk in my_first_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my_first_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myNewsDesk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.myNewsDesk" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -298,19 +340,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ContentCreatorTests.checkSubscribeButtonState" />
-      <item itemvalue="JUnit.ContentCreatorTests.getPublicCCProfile" />
-      <item itemvalue="JUnit.ContentCreatorTests.getUnsubscribePage" />
-      <item itemvalue="JUnit.com.myNewsDesk in my_first_test" />
       <item itemvalue="JUnit.All in my_first_test" />
+      <item itemvalue="JUnit.ContentCreatorTests.uploadProfileAvatar" />
+      <item itemvalue="JUnit.PressOfficerTests.loginAsPressOfficer" />
+      <item itemvalue="JUnit.PressOfficerTests.createJobAssignment" />
+      <item itemvalue="JUnit.PressOfficerTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PressOfficerTests" />
+        <item itemvalue="JUnit.PressOfficerTests.createJobAssignment" />
+        <item itemvalue="JUnit.PressOfficerTests.loginAsPressOfficer" />
+        <item itemvalue="JUnit.ContentCreatorTests.uploadProfileAvatar" />
         <item itemvalue="JUnit.All in my_first_test" />
-        <item itemvalue="JUnit.ContentCreatorTests.getUnsubscribePage" />
-        <item itemvalue="JUnit.ContentCreatorTests.getPublicCCProfile" />
-        <item itemvalue="JUnit.com.myNewsDesk in my_first_test" />
-        <item itemvalue="JUnit.ContentCreatorTests.checkSubscribeButtonState" />
       </list>
     </recent_temporary>
   </component>
@@ -328,35 +370,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContentCreatorTests_getUnsubscribePage - 2018.07.09 at 13h 57m 51s.xml">
-      <configuration name="ContentCreatorTests.getUnsubscribePage" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 12h 30m 53s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_getPublicCCProfile - 2018.07.09 at 19h 39m 24s.xml">
-      <configuration name="ContentCreatorTests.getPublicCCProfile" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 12h 33m 34s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_getPublicCCProfile - 2018.07.09 at 19h 40m 20s.xml">
-      <configuration name="ContentCreatorTests.getPublicCCProfile" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 12h 34m 16s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_getPublicCCProfile - 2018.07.10 at 13h 32m 04s.xml">
-      <configuration name="ContentCreatorTests.getPublicCCProfile" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 12h 35m 10s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_getPublicCCProfile - 2018.07.10 at 17h 41m 16s.xml">
-      <configuration name="ContentCreatorTests.getPublicCCProfile" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 12h 37m 38s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_getUnsubscribePage - 2018.07.10 at 17h 57m 02s.xml">
-      <configuration name="ContentCreatorTests.getUnsubscribePage" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 12h 41m 56s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_getUnsubscribePage - 2018.07.10 at 17h 57m 34s.xml">
-      <configuration name="ContentCreatorTests.getUnsubscribePage" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 12h 48m 17s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_getUnsubscribePage - 2018.07.10 at 18h 02m 17s.xml">
-      <configuration name="ContentCreatorTests.getUnsubscribePage" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 12h 54m 20s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentCreatorTests_getUnsubscribePage - 2018.07.10 at 18h 06m 55s.xml">
-      <configuration name="ContentCreatorTests.getUnsubscribePage" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 13h 13m 00s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_my_first_test - 2018.07.10 at 18h 09m 20s.xml">
-      <configuration name="All in my_first_test" configurationId="JUnit" />
+    <history-entry file="PressOfficerTests_createJobAssignment - 2018.07.16 at 13h 14m 26s.xml">
+      <configuration name="PressOfficerTests.createJobAssignment" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -364,23 +406,23 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48970252" weight="0.32479507" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48970252" weight="0.3237705" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3051106" side_tool="true" weight="0.27861446" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6948894" weight="0.28483605" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21311475" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19785523" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3051106" side_tool="true" weight="0.27861446" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6948894" visible="true" weight="0.38217214" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21311475" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22466488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,44 +431,150 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6948894" visible="true" weight="0.27861446" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19221967" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37650603" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3051106" side_tool="true" visible="true" weight="0.27861446" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48970252" weight="0.32680723" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/NewJobAssignmentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getCMProfile#0;class#ContentCreatorTests#0" />
+            <element signature="method#getCMAbout#0;class#ContentCreatorTests#0" />
+            <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
+            <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
+            <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
+            <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
+            <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
+            <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
+            <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorSetUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="165" column="66" lean-forward="true" selection-start-line="165" selection-start-column="66" selection-end-line="165" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/JobAssignmnetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3555">
+          <caret line="237" column="41" lean-forward="true" selection-start-line="237" selection-start-column="41" selection-end-line="237" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getCMProfile#0;class#ContentCreatorTests#0" />
+            <element signature="method#getCMAbout#0;class#ContentCreatorTests#0" />
+            <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
+            <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
+            <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
+            <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
+            <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
+            <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
+            <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerSetUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorSetUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="215" column="18" lean-forward="true" selection-start-line="215" selection-start-column="18" selection-end-line="215" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getCMProfile#0;class#ContentCreatorTests#0" />
+            <element signature="method#getCMAbout#0;class#ContentCreatorTests#0" />
+            <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
+            <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
+            <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
+            <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
+            <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
+            <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
+            <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorSetUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="104" selection-start-line="100" selection-start-column="104" selection-end-line="100" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3045">
@@ -438,11 +586,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -469,11 +615,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -500,11 +644,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -531,11 +673,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -552,11 +692,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -573,11 +711,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -594,11 +730,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -625,11 +759,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -656,11 +788,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -687,11 +817,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -718,11 +846,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -749,11 +875,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -780,11 +904,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -811,11 +933,9 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
           </folding>
         </state>
@@ -857,20 +977,50 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreator.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorSetUp.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerSetUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
-          <caret line="100" column="104" selection-start-line="100" selection-start-column="104" selection-end-line="100" selection-end-column="104" />
+        <state relative-caret-position="93">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressroomPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="215" column="18" lean-forward="true" selection-start-line="215" selection-start-column="18" selection-end-line="215" selection-end-column="18" />
+        <state relative-caret-position="345">
+          <caret line="125" column="25" lean-forward="true" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getCMProfile#0;class#ContentCreatorTests#0" />
@@ -878,12 +1028,57 @@
             <element signature="method#getCMAssignments#0;class#ContentCreatorTests#0" />
             <element signature="method#subNavigationInteraction#0;class#ContentCreatorTests#0" />
             <element signature="method#viewAsVisitor#0;class#ContentCreatorTests#0" />
-            <element signature="method#editProfileInfo#0;class#ContentCreatorTests#0" />
             <element signature="method#createPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#editPortfolioItem#0;class#ContentCreatorTests#0" />
             <element signature="method#deletePortfolioItem#0;class#ContentCreatorTests#0" />
-            <element signature="method#getPublicCCProfile#0;class#ContentCreatorTests#0" />
             <element signature="method#getUnsubscribePage#0;class#ContentCreatorTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/JobAssignmnetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/ContentCreatorSetUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="8" selection-end-line="144" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/MainNavigationMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/NewJobAssignmentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="126" column="24" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/myNewsDesk/PressOfficerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
